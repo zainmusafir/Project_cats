@@ -10,11 +10,14 @@
 #####instructions :
 ####get npm, nodejs , yeoman, and just in case typescript 
 
-quick start
+##quick start
 
 sudo apt update
+
 sudo apt install nodejs npm git
+
 npm install -g yo generator-code
+
 yo code
 
 ///////
@@ -23,19 +26,29 @@ yo code
 # Install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
+
 source ~/.bashrc
+
 nvm install 20 #installls node js 
+
 nvm use 20
 
 
+
 #verify if you got npm and node now
+
 node -v
+
 npm -v
+
 
 #now do this
 
+
 npm install -g yo generator-code
+
 yo code 
+
 
 #done 
 
